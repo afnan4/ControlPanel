@@ -1,0 +1,48 @@
+/* Style Sheet for control panel */
+header {
+  border: 5px outset lightblue;
+  background-color:  #eaeae1;
+}
+#home{
+  position: relative;
+  animation: move 3s ;
+  animation-fill-mode: forwards;  
+}
+@keyframes move {
+  from {left:0px;}
+  to {left: 82%;}
+}
+#ControlPanel {
+  border: 3px outset #008080;
+  background-color: #e0ebeb;
+ text-align: center;
+ color: gray ;
+}
+#table{
+ width:50%;  margin-left:auto; 
+    margin-right:auto; }
+.Button {
+	background-color: 	#996699;
+	border-radius:42px;
+	border:2px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:12px 76px;
+	text-decoration:none;
+	text-shadow:-4px -1px 10px #3d768a;
+}
+.Button:hover {
+	background-color:#669966;
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+footer{
+	 border: 5px outset lightblue;
+     background-color:  #eaeae1;
+     text-align: center;
+     color :#008880;}
